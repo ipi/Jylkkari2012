@@ -1,0 +1,57 @@
+/* @override 
+	http://localhost:8888/suomenlehdisto/wp-content/themes/suomenlehdisto/lib/styles/footer.css
+	http://www.suomenlehdisto.fi/wp-content/themes/suomenlehdisto_0.4/lib/styles/footer.css
+*/
+
+/*
+This file is part of Mediajalostamo Default Sandbox theme.
+
+    Mediajalostamo Default Sandbox theme is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Mediajalostamo Default Sandbox theme is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Mediajalostamo Default Sandbox theme.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+
+/*
+This style is only for FOOTER.PHP
+*/
+
+#footerwrap {background: url(../../images/bg_pattern_dark.jpg) repeat; height: auto; width: 100%; clear: both; padding: 0; margin-top: 30px;}
+
+#bar { width: 100%; height: 20px; background: url(../../images/separator_bar6.png) repeat-x; position: absolute; margin-top: -10px;}
+
+/*
+#footer {background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, ghostwhite), color-stop(1.0, #dcdcdc)); height: auto; width: 900px; padding: 15px 20px; margin: 0 auto 15px;}
+*/
+
+#logo_small {height: 30px; width: 220px; background: url(../../images/logo_small.png) no-repeat; -webkit-box-reflect:below -9px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white)); position: relative; top: 39px; left: 200px;}
+
+#footer hr {border-top: 1px solid #000; background: none; width: 900px; margin-top: 15px; margin-bottom: 15px;}
+
+#footer p {}
+
+#footer a:link {}
+#footer a:active {}
+#footer a:hover {}
+#footer a:visited {}
+
+#footercontact {min-height: 100px; width: 300px; margin: -20px 140px 0 auto;}
+
+#linkage {background: black; height: 30px; color: white; text-align: center;}
+
+#linkage_pwrap {padding: 5px 0px; }
+
+a#mjlink {color: white; text-decoration: underline;}
+
+a#mjlink:hover {color: #0098FF;}
+

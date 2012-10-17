@@ -1,0 +1,73 @@
+/* @override http://www.suomenlehdisto.fi/wp-content/themes/suomenlehdisto_0.4/lib/styles/sidebar.css */
+
+/* @override http://www.suomenlehdisto.fi/wp-content/themes/suomenlehdisto_0.4/lib/styles/sidebar.css */
+
+/* @override 
+	http://localhost:8888/suomenlehdisto/wp-content/themes/suomenlehdisto/lib/styles/sidebar.css
+	http://www.suomenlehdisto.fi/wp-content/themes/suomenlehdisto_0.4/lib/styles/sidebar.css
+*/
+
+/*
+This file is part of Mediajalostamo Default Sandbox theme.
+
+    Mediajalostamo Default Sandbox theme is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Mediajalostamo Default Sandbox theme is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Mediajalostamo Default Sandbox theme.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/*
+This style is only for SIDEBAR.PHP and WIDGETS
+*/
+
+#sidebar {height: auto; width: 220px; float: right; margin-right: 20px; padding-bottom: 120px;}/*Change FLOAT > LEFT to flip sidebars side, remember to change FLOAT in CONTENT.CSS*/
+
+.widgets {height: auto; width: auto; padding: 0 10px; margin: 0;}
+
+div.block { margin-left: 20px; width: 180px; height: auto; margin-bottom: 15px;}
+
+div.block ol, div.block ul {list-style-position: outside;
+list-style-type: none;}
+
+div.block ul li {margin-bottom: 5px;}
+
+/*@group WP Calendar*/
+#wp-calendar {width: 100%; text-align: center;}
+/*@end WP Calendar*/
+
+/*@ end FB-recommendations*/
+
+
+div .widget_search .screen-reader-text {
+display: none;
+}
+
+/*@group SIDEBAR ads*/
+
+/*@end SIDEBAR ads*/
+
+#sidebar div.block div.spwWrapper a.spwTitlelink span.spwTitle {font-size: 1.1em; font-weight: bold; width: 100%;}
+
+#sidebar div.block div.spwWrapper div.spwMetaWrapper {width: 100%; float: left; padding: 10px 0;}
+
+#sidebar div.block div.spwWrapper div.spwMetaWrapper span.spwDate {float: left; padding-right: 10px;}
+
+#sidebar div.block div.spwWrapper div.spwMetaWrapper span.spwCategories ul.post-categories {float: left; list-style-image: none; list-style-type: none;}
+
+#sidebar div.block div.spwWrapper div.spwMetaWrapper span.spwCategories ul.post-categories li {float: left; padding-right: 10px; margin: 0;}
+
+#sidebar div.block div.spwWrapper div.spwMetaWrapper span.spwTags a {float: left; padding-right: 10px;}
+
+#sidebar div.block div.spwWrapper div.spwMetaWrapper span.spwWriter {float: left; padding-right: 10px;}
+
+#sidebar div.block div.spwWrapper div.spwMetaWrapper span.spwComments {float: left; padding-right: 10px;}
+
+#sidebar div.block div.spwWrapper span.spwPostContent img.spwImg {height: auto; max-width: 180px; padding-bottom: 10px; margin-left: auto; margin-right: auto;}

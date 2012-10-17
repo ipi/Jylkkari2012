@@ -1,0 +1,117 @@
+/*
+This file is part of Mediajalostamo Default Sandbox theme.
+
+    Mediajalostamo Default Sandbox theme is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Mediajalostamo Default Sandbox theme is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Mediajalostamo Default Sandbox theme.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/*
+This style is only for HEADER.PHP
+*/
+
+#headerwrap02 {background: white; height: auto; width: 940px; margin: 0 auto;}
+
+#header_left {background: white; height: 225px; width: auto; float: left;}
+
+#header_left a img {margin-top: 30px; margin-left: 5px; margin-bottom: 10px;}
+
+#logo_mask {overflow: hidden;}
+
+#header_right {background: white; height: 135px; width: auto; float: right;}
+
+#header_right div.headwidget {height: 135px; width: 390px;}
+
+.headwidget img { margin: 0; padding: 0; max-width: 95%; height: auto;}
+
+#issuupress h3 {display: none;}
+
+#header_like {height: 135px; width: auto; margin-top: 15px; display: block; float:right;}
+
+#navigation {height: 80px; clear: both; width: 940px; padding-top: 15px;}
+
+#header_right .avatargetWrap {padding-top: 12px;}
+
+
+/* PAGE & CATEGORY Navigation */
+#top_menu { height: 50px; background: #fed702;}
+
+#top_menu_list {list-style: none; text-align: center; font-size: 1.8em; list-style-type:none; }
+
+#top_menu_list li { float:left; line-height: 40px; margin-top: 7px; margin-left: 30px; margin-right:50px; list-style-type: none; list-style-image: none; }
+
+#top_menu_list li a { color: #464449; text-decoration: none;} 
+#top_menu_list li a:hover, #page li a:focus { color: #ed028c; text-decoration: underline;}
+
+#below_menu { height: 30px; background-color:black; margin-left: auto; margin-right: auto;}
+
+#below_nav { bottom: 0; right: 0; z-index: 999; list-style: none; float: left; margin: 0; padding: 0; }
+
+#below_nav li { line-height:16px; float: left; margin-right: 0; margin-left: 30px; margin-top: 8px; font-size: 14px; display: block; }
+
+#below_nav li a { color: white; text-decoration: none; width: 100%; height: 100%; display: block;}
+#below_nav li.current a { color: #C8181E; }
+
+#below_nav li:hover a, #nav li.sfhover a { color: #C8181E; text-decoration: underline;}
+
+#below_nav li ul, #page li ul {
+clear: left;
+position: absolute;
+left: -999em;
+z-index: 999;
+width: 170px;
+_margin-top: 0; /* IE6 only */
+line-height: 10px;
+opacity: 0.95;
+}
+/* http://thatnorwegianguy.wordpress.com/2007/03/20/ie7-css-filter-hack/ */
+* + html #nav li ul {
+margin-top: 0;
+}
+* + html #page li ul {
+margin-top: 0;
+}
+#nav li li, #page li li {
+width: 100%;
+height: auto;
+
+font-size: 10px;
+text-align: left;
+/*search style!*/
+display: block;
+padding: 5px 0;
+margin: 0 0px 0px;
+text-align: left;
+
+color: white;
+background-color: #333;
+text-decoration: none;
+}
+
+#nav li li:hover, #page li li:hover {background: #f3f3f2;}
+
+#nav li ul ul, #page li ul ul {margin: -12px 0 0 100px; width: 100%;}
+
+#nav li:hover ul ul, #nav li.sfhover ul ul, #page li:hover ul ul, #page li.sfhover ul ul {left: -999em;}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #page li:hover ul, #page li li:hover ul, #page li.sfhover ul, #page li li.sfhover ul {
+left: auto; }
+
+#nav li li li, #page li li li {
+font-size: 1em; width: 100%; } 
+#nav li:hover li a, #nav li.sfhover li a, #page li:hover li a, #page li.sfhover li a {
+_float: none; width: 100%; height: auto; padding: 8px 12px; color: white; }
+
+#nav li:hover li a:hover, #nav li.sfhover li a:hover, #page li:hover li a:hover, #page li.sfhover li a:hover {
+text-decoration: underline; color: #4993d4; width: 100%; text-shadow: none; }
+
+/* END PAGE & CATEGORY Navigation */
