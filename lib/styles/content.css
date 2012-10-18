@@ -59,7 +59,7 @@ letter-spacing: 0.08em;
 
 #featured div.uppercontentblock div.spwWrapper img.spwImg {float: left; padding-right: 20px; padding-bottom: 15px; height: auto; max-width: 620px;}
 
-#featured div.uppercontentblock div.spwWrapper span.spwPostContent p {line-height: 17px;}
+#featured div.uppercontentblock div.spwWrapper span.spwPostContent p {line-height: 17px; margin-bottom: 5px;}
 
 #featured div.uppercontentblock div.spwWrapper span.spwPostContent p a:link, a: visited {color: black; text-decoration: none;}
 #featured div.uppercontentblock div.spwWrapper span.spwPostContent a:active {color: black;}

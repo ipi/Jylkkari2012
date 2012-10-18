@@ -134,6 +134,14 @@ remove_action('wp_head', 'wpmu_activate_stylesheet');
             </div>
         </div> 
         <div id="header_right">
+        <div>
+        	<object style="width:390px;height:235px" >
+        		<param name="movie" value="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf?mode=mini&amp;embedBackground=%23ffffff&amp;backgroundColor=%23222222&amp;documentId=121011120557-f75eb1a01f2441ef935290784f9cd327" />
+        		<param name="allowfullscreen" value="true"/><param name="menu" value="false"/>
+        		<param name="wmode" value="transparent"/>
+        		<embed src="http://static.issuu.com/webembed/viewers/style1/v2/IssuuReader.swf" type="application/x-shockwave-flash" allowfullscreen="true" menu="false" wmode="transparent" style="width:390px;height:200px" flashvars="mode=mini&amp;embedBackground=%23ffffff&amp;backgroundColor=%23222222&amp;documentId=121011120557-f75eb1a01f2441ef935290784f9cd327" />
+        	</object>
+        </div>
       			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header') ) : ?><?php endif; ?> 
         </div>
             

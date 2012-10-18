@@ -43,6 +43,10 @@ div.block ul li {margin-bottom: 5px;}
 #wp-calendar {width: 100%; text-align: center;}
 /*@end WP Calendar*/
 
+/*@Don't show label*/
+
+.block .screen-reader-text {display: none;}
+
 /*@ end FB-recommendations*/
 
 
